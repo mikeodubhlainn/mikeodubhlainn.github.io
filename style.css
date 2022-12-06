@@ -1,0 +1,180 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.site-header {
+    padding: 0;
+    margin: 0;
+    height: 75px;
+    background-color: #78A3C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header h1 {
+    color: white;
+    margin: 0 auto;
+    font-size: 24pt !important;
+}
+
+h1 {
+    text-align: center;
+    color: #78a3c2;
+    font-size: clamp(10pt, 4vw, 25pt);
+}
+
+#startGame {
+    text-align: center;
+    width: 100px;
+    background-color: rgb(91, 171, 91);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    align-self: center;
+    color: white;
+    font-weight: 500;
+}
+
+#startGame:hover {
+    background-color: rgb(73, 125, 73);
+    cursor: pointer;
+}
+
+.ranking-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.songsToChoose {
+    display: flex;
+    gap: 10vw;
+    padding: 0px, 30px, 30px,
+}
+
+.ranking-section .album-art {
+    height: 20vw;
+    width: 20vw;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 15px;
+}
+
+.song-details {
+    text-align: center;
+    color: #78a3c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(10pt, 3vw, 20pt);
+}
+
+.song-details p {
+    font-weight: 400;
+}
+
+.ranking-section .songTitle {
+    font-weight: 700 !important;
+    min-width: 20vw;
+    max-width: 250px;
+    background-color: #78a3c2;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+.ranking-section .songTitle:hover {
+    background-color: #5d7586;
+    cursor:pointer;
+}
+
+.song-details * {
+    margin: 10px;
+}
+
+#song1 .album-art {
+    background-image: url('images/Melodrama.jpg');
+    background-size: cover;
+}
+
+#song2 .album-art {
+    background-image: url('images/Lover.png');
+    background-size: cover;
+}
+
+hr {
+    width: 75%;
+    background-color: #78a3c2;
+}
+
+/* Leaderboard */
+
+.leaderboard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100vw;
+}
+
+.position {
+    font-weight: 700;
+    font-size: clamp(8pt,4.5vw,20pt) ;
+    background-color: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.leaderboard-item {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(236, 236, 236);
+}
+
+.leaderboard-item .text-segment {
+    width: clamp(50px, 20vw, 175px);
+    text-align: center;
+    font-size: clamp(10pt, 2vw, 14pt);
+}
+
+.position p {
+    margin: 0;
+    text-align: center;
+}
+
+.leaderboard .song-title {
+    font-weight: 500;
+}
+
+.leaderboard-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 10px;
+}
+
+.leaderboard-item .album-art {
+    height: 10vw;
+    width: 10vw;
+    max-height: 75px;
+    max-width: 75px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
