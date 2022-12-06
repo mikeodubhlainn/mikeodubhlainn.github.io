@@ -18,7 +18,7 @@ let artistCounter = 0;
 
 let songs = [];
 let albums = [];
-
+/*
 class Song {
   constructor(title, artist, album) {
     this._id = songCounter +1;
