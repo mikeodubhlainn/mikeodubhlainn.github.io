@@ -35,7 +35,9 @@ class Song {
 
     // If the album was not found, set the albumID to 0
     if (this._albumID === undefined) {
-      this._albumID = 0;}
+      let newAlbum = new Album(album, artist, 'NotFound.jpg');
+      this._albumID = newAlbum._id;
+      newAlbum._tracklist.push(this._id);};
 
     songCounter++;
     songs.push(this);
@@ -67,11 +69,11 @@ class Song {
 };
 
 class Album {
-  constructor(title, artist, albumArtFilename) {
+  constructor(title, artist) {
     this._id = albumCounter + 1;
     this._title = title
     this._artist = artist;
-    this._albumArt = `./images/${albumArtFilename}`;
+    //this._albumArt = `./images/${albumArtFilename}`;
     this._tracklist = [];
 
     albumCounter ++;
@@ -91,22 +93,43 @@ class Album {
     }
 };
 
-/*
- {
-   "songID": 194,
-   "songTitle": "Carolina - From The Motion Picture “Where The Crawdads Sing”",
-   "artistName": "Taylor Swift",
-   "albumTitle": "Carolina",
-   "albumArt": "Carolina.png",
-   "songRating": 1000
- }
-]; */
+const fs = require('fs'); // import the 'fs' module
 
-songs.sort((a,b) => {
-    return b.songRating - a.songRating;
+
+// read the contents of the 'unique_albums.json' file
+const albumJsonString = fs.readFileSync('./unique_albums.json');
+
+// parse the JSON string into a JavaScript object
+const albumJsonObject = JSON.parse(albumJsonString);
+
+// loop through the array of songs in the JSON object
+albumJsonObject.forEach((album) => {
+  // create a new instance of the Song class using the song data
+  const newAlbum = new Album(album.album, album.artist);
 });
 
-/* Refresh leaderboard */
+
+// read the contents of the 'unique_songs.json' file
+const jsonString = fs.readFileSync('./unique_songs.json');
+
+// parse the JSON string into a JavaScript object
+const jsonObject = JSON.parse(jsonString);
+
+// loop through the array of songs in the JSON object
+jsonObject.forEach((song) => {
+  // create a new instance of the Song class using the song data
+  const newSong = new Song(song.title, song.artist, song.album);
+});
+
+alert(albums);
+alert(songs);
+
+/*
+songs.sort((a,b) => {
+    return b.rating - a.rating;
+});
+
+// Refresh leaderboard
 
 refreshLeaderboard = () => {
     sortSongs();
@@ -126,7 +149,7 @@ const sortSongs = () => {
         return b.songRating - a.songRating;});
     };
 
-/* Compute Elo change */
+// Compute Elo change
 
 computeEloChange = (initialA, initialB, actualA) => {
     let transformA = 10**(initialA/400);
@@ -138,7 +161,7 @@ computeEloChange = (initialA, initialB, actualA) => {
     return Math.floor(initialA + 100 * (actualA - expectedA));
 };
 
-/* Initialise chooser */
+// Initialise chooser
 
 refreshChoices = () => {
 
@@ -173,7 +196,7 @@ document.getElementById('startGame').addEventListener('click', function() {
 }
 );
 
-/* If the left-hand song wins */
+// If the left-hand song wins
 
 song1Button.addEventListener('click', function(){
 
@@ -187,7 +210,7 @@ song1Button.addEventListener('click', function(){
     refreshLeaderboard();
 });
 
-/* If the right-hand song wins */
+// If the right-hand song wins
 
 song2Button.addEventListener('click', function(){
 
@@ -200,3 +223,4 @@ song2Button.addEventListener('click', function(){
     refreshChoices();
     refreshLeaderboard();
 });
+*/
