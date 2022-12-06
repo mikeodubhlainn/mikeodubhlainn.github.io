@@ -1,0 +1,862 @@
+[
+ {
+   "album": "1000 FORMS OF FEAR",
+   "artist": "SIA"
+ },
+ {
+   "album": "ABBA GOLD",
+   "artist": "ABBA"
+ },
+ {
+   "album": "ABBA GOLD ANNIVERSARY EDITION",
+   "artist": "ABBA"
+ },
+ {
+   "album": "ABBA",
+   "artist": "ABBA"
+ },
+ {
+   "album": "WANT YOU BACK",
+   "artist": "HAIM"
+ },
+ {
+   "album": "DAYS ARE GONE",
+   "artist": "HAIM"
+ },
+ {
+   "album": "THIS IS THE SOUND OF...MIKA",
+   "artist": "MIKA"
+ },
+ {
+   "album": "MUNA",
+   "artist": "MUNA"
+ },
+ {
+   "album": "SILK CHIFFON",
+   "artist": "MUNA"
+ },
+ {
+   "album": "CALL ON ME",
+   "artist": "RAYE"
+ },
+ {
+   "album": "TOTO IV",
+   "artist": "TOTO"
+ },
+ {
+   "album": "THE MIDDLE",
+   "artist": "ZEDD"
+ },
+ {
+   "album": "EASY ON ME",
+   "artist": "ADELE"
+ },
+ {
+   "album": "30",
+   "artist": "ADELE"
+ },
+ {
+   "album": "21",
+   "artist": "ADELE"
+ },
+ {
+   "album": "HEAD ON FIRE",
+   "artist": "GRIFF"
+ },
+ {
+   "album": "PRAYING",
+   "artist": "KESHA"
+ },
+ {
+   "album": "BLOW",
+   "artist": "KESHA"
+ },
+ {
+   "album": "RAINBOW",
+   "artist": "KESHA"
+ },
+ {
+   "album": "WOMAN",
+   "artist": "KESHA"
+ },
+ {
+   "album": "CUZ I LOVE YOU",
+   "artist": "LIZZO"
+ },
+ {
+   "album": "PERFECT PLACES",
+   "artist": "LORDE"
+ },
+ {
+   "album": "GREEN LIGHT",
+   "artist": "LORDE"
+ },
+ {
+   "album": "MOOD RING",
+   "artist": "LORDE"
+ },
+ {
+   "album": "STONED AT THE NAIL SALON",
+   "artist": "LORDE"
+ },
+ {
+   "album": "SOLAR POWER",
+   "artist": "LORDE"
+ },
+ {
+   "album": "MELODRAMA",
+   "artist": "LORDE"
+ },
+ {
+   "album": "LIABILITY",
+   "artist": "LORDE"
+ },
+ {
+   "album": "PURE HEROINE",
+   "artist": "LORDE"
+ },
+ {
+   "album": "QUEENDOM",
+   "artist": "AURORA"
+ },
+ {
+   "album": "CONSCIOUS",
+   "artist": "BROODS"
+ },
+ {
+   "album": "DOPAMINE",
+   "artist": "BØRNS"
+ },
+ {
+   "album": "3 WORDS",
+   "artist": "CHERYL"
+ },
+ {
+   "album": "THE DUTCHESS DELUXE",
+   "artist": "FERGIE"
+ },
+ {
+   "album": "G.R.L.",
+   "artist": "G.R.L."
+ },
+ {
+   "album": "ART ANGELS",
+   "artist": "GRIMES"
+ },
+ {
+   "album": "HOZIER",
+   "artist": "HOZIER"
+ },
+ {
+   "album": "EUPHORIA",
+   "artist": "LOREEN"
+ },
+ {
+   "album": "FROOT",
+   "artist": "MARINA"
+ },
+ {
+   "album": "PURGE THE POISON",
+   "artist": "MARINA"
+ },
+ {
+   "album": "MAN'S WORLD",
+   "artist": "MARINA"
+ },
+ {
+   "album": "ANCIENT DREAMS IN A MODERN LAND",
+   "artist": "MARINA"
+ },
+ {
+   "album": "THE FAMILY JEWELS",
+   "artist": "MARINA"
+ },
+ {
+   "album": "ELECTRA HEART",
+   "artist": "MARINA"
+ },
+ {
+   "album": "SEXUAL",
+   "artist": "NEIKED"
+ },
+ {
+   "album": "AMERICAN",
+   "artist": "RUPAUL"
+ },
+ {
+   "album": "BORN NAKED",
+   "artist": "RUPAUL"
+ },
+ {
+   "album": "RAW",
+   "artist": "SIGRID"
+ },
+ {
+   "album": "MIRROR",
+   "artist": "SIGRID"
+ },
+ {
+   "album": "STRANGERS",
+   "artist": "SIGRID"
+ },
+ {
+   "album": "VYZEE",
+   "artist": "SOPHIE"
+ },
+ {
+   "album": "COLLXTION II",
+   "artist": "ALLIE X"
+ },
+ {
+   "album": "COLLXTION I",
+   "artist": "ALLIE X"
+ },
+ {
+   "album": "EVERYTIME WE TOUCH",
+   "artist": "CASCADA"
+ },
+ {
+   "album": "CELEBRATION",
+   "artist": "MADONNA"
+ },
+ {
+   "album": "THE WAY YOU MOVE / HEY YA!",
+   "artist": "OUTKAST"
+ },
+ {
+   "album": "TIMBER FEAT. KE$HA",
+   "artist": "PITBULL"
+ },
+ {
+   "album": "GOOD GIRL GONE BAD",
+   "artist": "RIHANNA"
+ },
+ {
+   "album": "LOUD",
+   "artist": "RIHANNA"
+ },
+ {
+   "album": "ORAL FIXATION, VOL. 2 EXPANDED EDITION",
+   "artist": "SHAKIRA"
+ },
+ {
+   "album": "BLUE LIPS",
+   "artist": "TOVE LO"
+ },
+ {
+   "album": "LADY WOOD",
+   "artist": "TOVE LO"
+ },
+ {
+   "album": "QUEEN OF THE CLOUDS",
+   "artist": "TOVE LO"
+ },
+ {
+   "album": "NO ONE DIES FROM LOVE",
+   "artist": "TOVE LO"
+ },
+ {
+   "album": "POTENTIAL BREAKUP SONG",
+   "artist": "ALY & AJ"
+ },
+ {
+   "album": "SLOW DANCING",
+   "artist": "ALY & AJ"
+ },
+ {
+   "album": "DANGEROUSLY IN LOVE",
+   "artist": "BEYONCÉ"
+ },
+ {
+   "album": "I AM...SASHA FIERCE",
+   "artist": "BEYONCÉ"
+ },
+ {
+   "album": "BEYONCÉ [PLATINUM EDITION]",
+   "artist": "BEYONCÉ"
+ },
+ {
+   "album": "RENAISSANCE",
+   "artist": "BEYONCÉ"
+ },
+ {
+   "album": "4",
+   "artist": "BEYONCÉ"
+ },
+ {
+   "album": "THE BONES OF WHAT YOU BELIEVE",
+   "artist": "CHVRCHES"
+ },
+ {
+   "album": "EVERY OPEN EYE",
+   "artist": "CHVRCHES"
+ },
+ {
+   "album": "DUA LIPA",
+   "artist": "DUA LIPA"
+ },
+ {
+   "album": "FUTURE NOSTALGIA",
+   "artist": "DUA LIPA"
+ },
+ {
+   "album": "BLOW YOUR MIND MWAH",
+   "artist": "DUA LIPA"
+ },
+ {
+   "album": "SWEET TALKER",
+   "artist": "JESSIE J"
+ },
+ {
+   "album": "AFTER LAUGHTER",
+   "artist": "PARAMORE"
+ },
+ {
+   "album": "ANYWHERE",
+   "artist": "RITA ORA"
+ },
+ {
+   "album": "SOMEBODY ELSE",
+   "artist": "VÉRITÉ"
+ },
+ {
+   "album": "WORLD OF OUR OWN",
+   "artist": "WESTLIFE"
+ },
+ {
+   "album": "THE VALLEY",
+   "artist": "BETTY WHO"
+ },
+ {
+   "album": "M3LL155X",
+   "artist": "FKA TWIGS"
+ },
+ {
+   "album": "THE KICK INSIDE",
+   "artist": "KATE BUSH"
+ },
+ {
+   "album": "THE FAME MONSTER",
+   "artist": "LADY GAGA"
+ },
+ {
+   "album": "THE CURE",
+   "artist": "LADY GAGA"
+ },
+ {
+   "album": "CHROMATICA",
+   "artist": "LADY GAGA"
+ },
+ {
+   "album": "ARTPOP",
+   "artist": "LADY GAGA"
+ },
+ {
+   "album": "JOANNE",
+   "artist": "LADY GAGA"
+ },
+ {
+   "album": "PERFECT ILLUSION",
+   "artist": "LADY GAGA"
+ },
+ {
+   "album": "BORN THIS WAY",
+   "artist": "LADY GAGA"
+ },
+ {
+   "album": "INDUSTRY BABY FEAT. JACK HARLOW",
+   "artist": "LIL NAS X"
+ },
+ {
+   "album": "OH WONDER",
+   "artist": "OH WONDER"
+ },
+ {
+   "album": "ULTRALIFE",
+   "artist": "OH WONDER"
+ },
+ {
+   "album": "I GOT YOU",
+   "artist": "BEBE REXHA"
+ },
+ {
+   "album": "PIANO MAN LEGACY EDITION",
+   "artist": "BILLY JOEL"
+ },
+ {
+   "album": "EPIPHANY: THE BEST OF CHAKA KHAN, VOL. 1",
+   "artist": "CHAKA KHAN"
+ },
+ {
+   "album": "AFTER THE AFTERPARTY FEAT. LIL YACHTY",
+   "artist": "CHARLI XCX"
+ },
+ {
+   "album": "HOW I'M FEELING NOW",
+   "artist": "CHARLI XCX"
+ },
+ {
+   "album": "VROOM VROOM EP",
+   "artist": "CHARLI XCX"
+ },
+ {
+   "album": "POP 2",
+   "artist": "CHARLI XCX"
+ },
+ {
+   "album": "GOOD ONES",
+   "artist": "CHARLI XCX"
+ },
+ {
+   "album": "CRASH",
+   "artist": "CHARLI XCX"
+ },
+ {
+   "album": "BOYS",
+   "artist": "CHARLI XCX"
+ },
+ {
+   "album": "NUMBER 1 ANGEL",
+   "artist": "CHARLI XCX"
+ },
+ {
+   "album": "DIANA",
+   "artist": "DIANA ROSS"
+ },
+ {
+   "album": "ARE YOU READY FOR LOVE?",
+   "artist": "ELTON JOHN"
+ },
+ {
+   "album": "TEENAGE DREAM: THE COMPLETE CONFECTION",
+   "artist": "KATY PERRY"
+ },
+ {
+   "album": "SWISH SWISH",
+   "artist": "KATY PERRY"
+ },
+ {
+   "album": "WITNESS",
+   "artist": "KATY PERRY"
+ },
+ {
+   "album": "COCONUTS",
+   "artist": "KIM PETRAS"
+ },
+ {
+   "album": "HEART TO BREAK",
+   "artist": "KIM PETRAS"
+ },
+ {
+   "album": "MALIBU",
+   "artist": "KIM PETRAS"
+ },
+ {
+   "album": "I DON'T WANT IT AT ALL",
+   "artist": "KIM PETRAS"
+ },
+ {
+   "album": "IT'S NOT ME, IT'S YOU",
+   "artist": "LILY ALLEN"
+ },
+ {
+   "album": "GLORY DAYS: THE PLATINUM EDITION",
+   "artist": "LITTLE MIX"
+ },
+ {
+   "album": "DESPACITO FEAT. JUSTIN BIEBER",
+   "artist": "LUIS FONSI"
+ },
+ {
+   "album": "NO SECRETS",
+   "artist": "CARLY SIMON"
+ },
+ {
+   "album": "CONFIDENT",
+   "artist": "DEMI LOVATO"
+ },
+ {
+   "album": "FREE YOURSELF",
+   "artist": "JESSIE WARE"
+ },
+ {
+   "album": "SPIRIT",
+   "artist": "LEONA LEWIS"
+ },
+ {
+   "album": "UNITED",
+   "artist": "MARVIN GAYE"
+ },
+ {
+   "album": "THE TIME OF OUR LIVES",
+   "artist": "MILEY CYRUS"
+ },
+ {
+   "album": "SHRINES",
+   "artist": "PURITY RING"
+ },
+ {
+   "album": "MY MY MY!",
+   "artist": "TROYE SIVAN"
+ },
+ {
+   "album": "THE GOOD SIDE",
+   "artist": "TROYE SIVAN"
+ },
+ {
+   "album": "EASY WITH KACEY MUSGRAVES FEAT. MARK RONSON",
+   "artist": "TROYE SIVAN"
+ },
+ {
+   "album": "BLOOM",
+   "artist": "TROYE SIVAN"
+ },
+ {
+   "album": "THE VERY BEST OF BONNIE TYLER",
+   "artist": "BONNIE TYLER"
+ },
+ {
+   "album": "THE BEST OF THE 80'S",
+   "artist": "BONNIE TYLER"
+ },
+ {
+   "album": "ATTENTION",
+   "artist": "CHARLIE PUTH"
+ },
+ {
+   "album": "SYMPHONY FEAT. ZARA LARSSON",
+   "artist": "CLEAN BANDIT"
+ },
+ {
+   "album": "ROCKABYE FEAT. SEAN PAUL & ANNE-MARIE",
+   "artist": "CLEAN BANDIT"
+ },
+ {
+   "album": "TEARS FEAT. LOUISA JOHNSON",
+   "artist": "CLEAN BANDIT"
+ },
+ {
+   "album": "SHE'S SO UNUSUAL: A 30TH ANNIVERSARY CELEBRATION DELUXE EDITION",
+   "artist": "CYNDI LAUPER"
+ },
+ {
+   "album": "JOLENE",
+   "artist": "DOLLY PARTON"
+ },
+ {
+   "album": "DOLLY PARTON SLIPCASE",
+   "artist": "DOLLY PARTON"
+ },
+ {
+   "album": "LOVE ANGEL MUSIC BABY",
+   "artist": "GWEN STEFANI"
+ },
+ {
+   "album": "THE SWEET ESCAPE",
+   "artist": "GWEN STEFANI"
+ },
+ {
+   "album": "CHEMTRAILS OVER THE COUNTRY CLUB",
+   "artist": "LANA DEL REY"
+ },
+ {
+   "album": "MUSIC FROM BAZ LUHRMANN'S FILM THE GREAT GATSBY",
+   "artist": "LANA DEL REY"
+ },
+ {
+   "album": "NORMAN FUCKING ROCKWELL!",
+   "artist": "LANA DEL REY"
+ },
+ {
+   "album": "LUST FOR LIFE WITH THE WEEKND",
+   "artist": "LANA DEL REY"
+ },
+ {
+   "album": "LOVE",
+   "artist": "LANA DEL REY"
+ },
+ {
+   "album": "BORN TO DIE - THE PARADISE EDITION",
+   "artist": "LANA DEL REY"
+ },
+ {
+   "album": "GO TO WORK",
+   "artist": "NADINE COYLE"
+ },
+ {
+   "album": "BAD LIAR",
+   "artist": "SELENA GOMEZ"
+ },
+ {
+   "album": "FETISH FEAT. GUCCI MANE",
+   "artist": "SELENA GOMEZ"
+ },
+ {
+   "album": "REVIVAL",
+   "artist": "SELENA GOMEZ"
+ },
+ {
+   "album": "RED TAYLOR'S VERSION",
+   "artist": "TAYLOR SWIFT"
+ },
+ {
+   "album": "MIDNIGHTS 3AM EDITION",
+   "artist": "TAYLOR SWIFT"
+ },
+ {
+   "album": "LOOK WHAT YOU MADE ME DO",
+   "artist": "TAYLOR SWIFT"
+ },
+ {
+   "album": "LOVER",
+   "artist": "TAYLOR SWIFT"
+ },
+ {
+   "album": "EVERMORE",
+   "artist": "TAYLOR SWIFT"
+ },
+ {
+   "album": "LUSH LIFE",
+   "artist": "ZARA LARSSON"
+ },
+ {
+   "album": "DANGEROUS WOMAN",
+   "artist": "ARIANA GRANDE"
+ },
+ {
+   "album": "NO TEARS LEFT TO CRY",
+   "artist": "ARIANA GRANDE"
+ },
+ {
+   "album": "MY EVERYTHING",
+   "artist": "ARIANA GRANDE"
+ },
+ {
+   "album": "BROKE WITH EXPENSIVE TASTE",
+   "artist": "AZEALIA BANKS"
+ },
+ {
+   "album": "THE BIG BIG BEAT",
+   "artist": "AZEALIA BANKS"
+ },
+ {
+   "album": "ANNA WINTOUR",
+   "artist": "AZEALIA BANKS"
+ },
+ {
+   "album": "HAPPIER THAN EVER",
+   "artist": "BILLIE EILISH"
+ },
+ {
+   "album": "THIS IS WHAT YOU CAME FOR",
+   "artist": "CALVIN HARRIS"
+ },
+ {
+   "album": "BROKEN FLOWERS - EP",
+   "artist": "DANNY L HARLE"
+ },
+ {
+   "album": "A GIRL BETWEEN TWO WORLDS",
+   "artist": "FATIMA YAMAHA"
+ },
+ {
+   "album": "EXPECTATIONS",
+   "artist": "HAYLEY KIYOKO"
+ },
+ {
+   "album": "FEVER",
+   "artist": "KYLIE MINOGUE"
+ },
+ {
+   "album": "THAT'S WHERE I AM",
+   "artist": "MAGGIE ROGERS"
+ },
+ {
+   "album": "REBECCA BLACK WAS HERE",
+   "artist": "REBECCA BLACK"
+ },
+ {
+   "album": "CHERRY",
+   "artist": "RINA SAWAYAMA"
+ },
+ {
+   "album": "THIS HELL",
+   "artist": "RINA SAWAYAMA"
+ },
+ {
+   "album": "SAWAYAMA",
+   "artist": "RINA SAWAYAMA"
+ },
+ {
+   "album": "HOLD THE GIRL",
+   "artist": "RINA SAWAYAMA"
+ },
+ {
+   "album": "STARSTRUCK",
+   "artist": "YEARS & YEARS"
+ },
+ {
+   "album": "COMMUNION",
+   "artist": "YEARS & YEARS"
+ },
+ {
+   "album": "IN THE ZONE",
+   "artist": "BRITNEY SPEARS"
+ },
+ {
+   "album": "GLORY DELUXE VERSION",
+   "artist": "BRITNEY SPEARS"
+ },
+ {
+   "album": "GREATEST HITS: MY PREROGATIVE",
+   "artist": "BRITNEY SPEARS"
+ },
+ {
+   "album": "HAVANA FEAT. YOUNG THUG",
+   "artist": "CAMILA CABELLO"
+ },
+ {
+   "album": "RISE LIKE A PHOENIX",
+   "artist": "CONCHITA WURST"
+ },
+ {
+   "album": "DIRTY COMPUTER",
+   "artist": "JANELLE MONÁE"
+ },
+ {
+   "album": "PYNK",
+   "artist": "JANELLE MONÁE"
+ },
+ {
+   "album": "MAKE ME FEEL",
+   "artist": "JANELLE MONÁE"
+ },
+ {
+   "album": "BREAKAWAY",
+   "artist": "KELLY CLARKSON"
+ },
+ {
+   "album": "DRIVERS LICENSE",
+   "artist": "OLIVIA RODRIGO"
+ },
+ {
+   "album": "SOUR",
+   "artist": "OLIVIA RODRIGO"
+ },
+ {
+   "album": "ELEPHUNK",
+   "artist": "BLACK EYED PEAS"
+ },
+ {
+   "album": "DÉJÀ VU FEAT. SIA",
+   "artist": "GIORGIO MORODER"
+ },
+ {
+   "album": "GOLDEN HOUR",
+   "artist": "KACEY MUSGRAVES"
+ },
+ {
+   "album": "BAD 25TH ANNIVERSARY",
+   "artist": "MICHAEL JACKSON"
+ },
+ {
+   "album": "PUNISHER",
+   "artist": "PHOEBE BRIDGERS"
+ },
+ {
+   "album": "STRANGER IN THE ALPS",
+   "artist": "PHOEBE BRIDGERS"
+ },
+ {
+   "album": "TA DAH",
+   "artist": "SCISSOR SISTERS"
+ },
+ {
+   "album": "MAGIC HOUR",
+   "artist": "SCISSOR SISTERS"
+ },
+ {
+   "album": "EVERYBODY ELSE IS DOING IT, SO WHY CAN'T WE? THE COMPLETE SESSIONS 1991-1993",
+   "artist": "THE CRANBERRIES"
+ },
+ {
+   "album": "I WILL ALWAYS LOVE YOU: THE BEST OF WHITNEY HOUSTON",
+   "artist": "WHITNEY HOUSTON"
+ },
+ {
+   "album": "WHITNEY",
+   "artist": "WHITNEY HOUSTON"
+ },
+ {
+   "album": "WHITNEY HOUSTON",
+   "artist": "WHITNEY HOUSTON"
+ },
+ {
+   "album": "GREATEST VOL.1 - BELINDA CARLISLE",
+   "artist": "BELINDA CARLISLE"
+ },
+ {
+   "album": "THE LONELIEST TIME",
+   "artist": "CARLY RAE JEPSEN"
+ },
+ {
+   "album": "EMOTION",
+   "artist": "CARLY RAE JEPSEN"
+ },
+ {
+   "album": "DEDICATED",
+   "artist": "CARLY RAE JEPSEN"
+ },
+ {
+   "album": "EMOTION SIDE B",
+   "artist": "CARLY RAE JEPSEN"
+ },
+ {
+   "album": "CUT TO THE FEELING",
+   "artist": "CARLY RAE JEPSEN"
+ },
+ {
+   "album": "KISS",
+   "artist": "CARLY RAE JEPSEN"
+ },
+ {
+   "album": "\"AWAKEN, MY LOVE!\"",
+   "artist": "CHILDISH GAMBINO"
+ },
+ {
+   "album": "BONITO GENERATION",
+   "artist": "KERO KERO BONITO"
+ },
+ {
+   "album": "BREATHLESS",
+   "artist": "CAROLINE POLACHEK"
+ },
+ {
+   "album": "BUNNY IS A RIDER",
+   "artist": "CAROLINE POLACHEK"
+ },
+ {
+   "album": "80S 100 HITS",
+   "artist": "THE WEATHER GIRLS"
+ },
+ {
+   "album": "BEETLEJUICE",
+   "artist": "CAST OF BEETLEJUICE"
+ },
+ {
+   "album": "TOO RYE AY",
+   "artist": "DEXYS MIDNIGHT RUNNERS"
+ },
+ {
+   "album": "BETWEEN TWO LUNGS",
+   "artist": "FLORENCE + THE MACHINE"
+ },
+ {
+   "album": "CEREMONIALS",
+   "artist": "FLORENCE + THE MACHINE"
+ },
+ {
+   "album": "UK HUN? UNITED KINGDOLLS VERSION",
+   "artist": "THE CAST OF RUPAUL'S DRAG RACE UK, SEASON 2"
+ }
+]
