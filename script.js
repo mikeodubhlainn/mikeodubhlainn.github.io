@@ -1,4 +1,4 @@
-alert(test);
+alert('test');
 
 let song1 = document.getElementById('song1');
 let song2 = document.getElementById('song2');
