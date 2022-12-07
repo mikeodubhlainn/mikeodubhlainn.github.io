@@ -1,5 +1,3 @@
-alert('test');
-
 let song1 = document.getElementById('song1');
 let song2 = document.getElementById('song2');
 
@@ -18,10 +16,11 @@ let artistCounter = 0;
 
 let songs = [];
 let albums = [];
-/*
+
 class Song {
   constructor(title, artist, album) {
     this._id = songCounter +1;
+    this._title = title;
     this._artist = artist;
     this._album = album;
     this._rating = 1000;
@@ -45,7 +44,7 @@ class Song {
     songs.push(this);
 
   }
-    get id = () => {
+    get id() {
       return this._id;
     }
     
@@ -75,7 +74,7 @@ class Album {
     this._id = albumCounter + 1;
     this._title = title
     this._artist = artist;
-    //this._albumArt = `./images/${albumArtFilename}`;
+    this._albumArt = `./images/${artist}-${title}`;
     this._tracklist = [];
 
     albumCounter ++;
@@ -107,9 +106,8 @@ const albumJsonObject = JSON.parse(albumJsonString);
 // loop through the array of songs in the JSON object
 albumJsonObject.forEach((album) => {
   // create a new instance of the Song class using the song data
-  const newAlbum = new Album(album.album, album.artist);
+  new Album(album.album, album.artist);
 });
-
 
 // read the contents of the 'unique_songs.json' file
 const jsonString = fs.readFileSync('./unique_songs.json');
@@ -123,14 +121,49 @@ jsonObject.forEach((song) => {
   const newSong = new Song(song.title, song.artist, song.album);
 });
 
-alert(albums);
-alert(songs);
+
+// Rating logic
+
+const updateFile = (filename, content) => {
+  fs.writeFileSync(filename, JSON.stringify(content))
+};
+
+const computeEloChange = (initialA, initialB, actualA) => {
+  let transformA = 10**(initialA/400);
+  let transformB = 10**(initialB/400);
+
+  let expectedA = transformA / (transformA + transformB);
+
+  return initialA + 100 * (actualA - expectedA);
+};
+
+const chooseRandomNumber (max) => {
+  return Math.floor(Math.random(max));
+}
+
+const runComparison = () => {
+  randomChoiceA = chooseRandomNumber(songs.length);
+  randomChoiceB = chooseRandomNumber(songs.length);
+
+  while (randomChoiceA === randomChoiceB) {
+    randomChoiceB = chooseRandomNumber(songs.length);
+  }
+
+  song1.getElementsByClassName('songTitle')[0].innerHTML = songs[randomChoiceA]._title;
+  song2.getElementsByClassName('songTitle')[0].innerHTML = songs[randomChoiceB]._title;
+
+  song1.getElementsByClassName('artistName')[0].innerHTML = songs[randomChoiceA]._artist;
+  song2.getElementsByClassName('artistName')[0].innerHTML = songs[randomChoiceB]._artist;
+
+  document.getElementById('songsToChoose').style.display = "flex";
+  document.getElementById('leaderboardContainer').style.display = "flex";
+}
+
+/* songs.sort((a,b) => {
+    return b.rating - a.rating;
+}); */
 
 /*
-songs.sort((a,b) => {
-    return b.rating - a.rating;
-});
-
 // Refresh leaderboard
 
 refreshLeaderboard = () => {
@@ -153,15 +186,7 @@ const sortSongs = () => {
 
 // Compute Elo change
 
-computeEloChange = (initialA, initialB, actualA) => {
-    let transformA = 10**(initialA/400);
-    let transformB = 10**(initialB/400);
 
-    let expectedA = transformA / (transformA + transformB);
-    let expectedB = transformB / (transformA + transformB);
-
-    return Math.floor(initialA + 100 * (actualA - expectedA));
-};
 
 // Initialise chooser
 
