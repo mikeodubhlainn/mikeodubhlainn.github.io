@@ -157,7 +157,9 @@ const runComparison = () => {
 
   document.getElementById('songsToChoose').style.display = "flex";
   document.getElementById('leaderboardContainer').style.display = "flex";
-}
+};
+
+runComparison();
 
 /* songs.sort((a,b) => {
     return b.rating - a.rating;
